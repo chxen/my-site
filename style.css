@@ -6,7 +6,7 @@ body {
   line-height: 32px;
   color: #222222;
   background-color: #f2f4f6;
-  background-image: url("img/hero-bg.jpg");
+  background-image: url("img/hero-bg1.jpg");
   background-repeat: no-repeat;
   background-position: top center;
 }
@@ -47,7 +47,7 @@ body {
 }
 
 .hero-image {
-  margin-bottom: 620px;
+  margin-bottom: 450px;
 }
 
 .hero-image .container {
@@ -71,6 +71,22 @@ body {
 
 .intro {
   margin: 0 0 120px;
+}
+
+.about-me {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+table {
+  border-collapse: collapse; 
+}
+
+table td {
+  border: 3px solid lightgray;
+  padding: 15px;
 }
 
 .subheading {
